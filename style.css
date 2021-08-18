@@ -1,0 +1,427 @@
+/* 
+Theme Name: KentaroGram
+Author: Kentaro Suzuki
+Version: 1.0
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+/* ページトップメニューのスタイル */
+body{
+  font-size: 18px;
+}
+
+body p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+body h2{
+  color:#00A99D;
+}
+
+body ul{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 3px #00A99D solid;
+  border-bottom: 3px #00A99D solid;
+}
+body ol{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 3px #00A99D solid;
+  border-bottom: 3px #00A99D solid;
+}
+
+input{
+  width:100%;
+}
+
+textarea{
+  width: 100%;
+}
+
+.global_menu{
+  margin: 0%;
+  width: auto;
+  background-color: #00A99D;
+}
+
+/* サイト左上のロゴのスタイル(PC表示) */
+.global_menu .SiteLogo{
+  font-family: 'Nunito', sans-serif;
+  color: #FFF;
+  font-size: 40px;
+}
+.global_menu .SiteLogo a{
+  color: #fff;
+  text-decoration: none;
+}
+.global_menu .SiteLogo a:hover{
+  color: #FBB03B;
+}
+
+.global_menu .nav-link{
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.global_menu ul{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* サイトロゴの表示(スマホ表示) */
+.global_menu .SiteLogo_phone{
+  text-align: center;
+}
+
+/* アコーディオンメニューのスタイル */
+.global_menu .acordion_icon{
+  margin-left: auto;
+  margin-right: auto;
+  height:30px;
+  width: auto;
+}
+.global_menu .acordion_icon:hover{
+  cursor: pointer;
+}
+
+.global_menu .phone-nav{
+	padding:0px;
+  font-size: 18px;
+  text-align: center;
+  list-style: none;
+}
+
+.global_menu .closeAcordionMenu{
+  cursor: pointer;
+}
+.global_menu hr{
+  border: 2px #fff solid;
+}
+/* 画像のスタイル */
+img{
+  width: 100%;
+  height: auto;
+}
+
+/* Jumbotron下の水平線のスタイル */
+.under_jumbotron{
+  border: 5px #00A99D solid;
+}
+
+/* プロフィールの上の電球のスタイル */
+.bulb{
+  align-items: center;
+  height:80px;
+  width:auto; 
+  opacity:0.0;
+}
+.bulb:hover{
+  opacity:1.0;
+}
+
+/* 記事一覧のスタイル */
+.articles_list{
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 40px;
+  color: #00A99D;
+}
+
+/* 記事一覧のタイトル aタグのスタイル */
+.post-title a{
+  color: #00A99D;
+  text-decoration: none;
+}
+.post-title a:hover{
+  color: #FBB03B;
+}
+
+/* カテゴリーページタイトル */
+.category_name{
+  font-family: 'Kosugi Maru', sans-serif;
+  font-size: 40px;
+  color: #00A99D;
+}
+
+/* Main(新着記事)のスタイル */
+.article_area{
+  font-family: 'Kosugi Maru', sans-serif;
+  color: #000;
+}
+
+.article_area h2{
+  font-size: 30px;
+}
+
+.article_area h3{
+  font-size: 20px;
+}
+
+.article_area .open_article_button{
+  border-radius:50px;
+  color: #FFF;
+  background-color: #00A99D;
+}
+
+/* 記事の関連カテゴリースタイル */
+.article_area .attached_category{
+  color: #00A99D;
+  text-decoration: none;
+}
+
+.article_area .attached_category:hover {
+  color: #FBB03B;
+}
+
+/* 記事の関連タグスタイル */
+.article_area .attached_tag{
+  color: #00A99D;
+  text-decoration: none;
+}
+.article_area .attached_tag:hover {
+  color: #FBB03B;
+}
+
+
+/*カテゴリ一覧ページのスタイル  */
+.article_area .category_card_link{
+  text-decoration: none;
+}
+
+.article_area .category_card_image{
+  width:320px;
+  height:320px;
+}
+
+/* タグ一覧ページのスタイル */
+.article_area .tag_link{
+  color: #00A99D;
+  text-decoration: none;
+}
+.article_area .tag_link:hover {
+  color: #FBB03B;
+}
+
+/* コメントエリアのスタイル */
+.comment_area{
+  margin-top:100px;
+  padding: 30px;
+  border: 3px #00A99D solid;
+  border-radius: 30px;
+}
+
+.comment_area .each_comment{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 2px #FBB03B solid;
+}
+
+/* コメントエリアのフォームのスタイル */
+.comment_form{
+  margin-top:20px;
+  padding: 30px;
+  border: 3px #FBB03B solid;
+  border-radius: 30px;
+}
+
+.comment_form form textarea{
+  border: 2px #000 solid;
+  border-radius: 5px;
+}
+
+.comment_form form #email{
+  border: 2px #000 solid;
+  border-radius: 5px;
+}
+
+.comment_form form #author{
+  border: 2px #000 solid;
+  border-radius: 5px;
+}
+
+.comment_form .comment-reply-title{
+  color: #FBB03B;
+}
+
+/* Footerのスタイル */
+
+footer{
+  color:#FFF;
+  height: auto;
+  width:  100%;
+  background-color: #00A99D;
+}
+
+/* sidebarのスタイル */
+.sidebar{
+  font-family: 'Kosugi Maru', sans-serif;
+}
+
+.card{
+  height:auto;
+  width: 100%;
+  border: 6px #00A99D solid;
+  border-radius: 20px;
+}
+.card .card-title{
+  text-align: center;
+  font-size: 20px;
+  color: #00A99D;
+}
+
+.card .under_card_picture{
+  border: 20px #00A99D solid;
+}
+/* サイドバーのカテゴリブロックのスタイル */
+.category_block{
+  height:auto;
+  width: 100%;
+}
+/* サイドバーのカテゴリブロックタイトルのスタイル */
+.category_list_title{
+  text-align: center;
+  font-size: 30px;
+  color: #00A99D
+}
+
+.category_list{
+  border: 6px #00A99D solid;
+  border-radius: 10px;
+}
+
+.category_list ul{
+	border: 0px #00A99D solid;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+/* サイドバーのカテゴリーのリンクのスタイル */
+.category_link>a{
+  font-size: 20px;
+  color:#000;
+  text-decoration: none;
+}
+.category_link>a:visited{
+  color:#FBB03B;
+  text-decoration: none;
+}
+.category_link>a:hover{
+  color:#00A99D;
+  text-decoration: none;
+}
+
+/* カテゴリしたの歯車のスタイル */
+.gear {
+  display: inline-block;
+}
+/* 歯車の回転 */
+.gear1 {
+  animation: r1 60s steps(60) infinite;
+}
+.gear1:hover {
+  animation: r1 10s steps(60) infinite;
+}
+
+@keyframes r1 {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* キャプテン・アメリカの盾のスタイル */
+.shield{
+  display: inline-block;
+  height:110px;
+  width:auto;
+}
+
+.shield1{
+  animation: r1 3s steps(20) infinite;
+}
+.shield1:hover{
+  animation: horizonMove 0.5s forwards;
+}
+@keyframes horizonMove {
+  0%{
+    transform: translateY(0px);
+  }
+
+  100%{
+    transform: translateY(200px);
+  }
+}
+
+/* タグリストのスタイル */
+.tag_block .tag_list_title{
+  text-align: center;
+  font-size: 30px;
+  color: #00A99D
+}
+
+.tag_block .tag_list{
+  height: auto;
+  border: 6px #00A99D solid;
+  border-radius: 10px;
+}
+
+.tag_block .tag_list span a{
+  font-size: 18px;
+  color:#000;
+  text-decoration: none;
+}
+
+.tag_block .tag_list span a:visited{
+  color:#FBB03B;
+  text-decoration: none;
+}
+.tag_block .tag_list span a:hover{
+  color:#00A99D;
+  text-decoration: none;
+}
+
+/* 画面フッターのスタイル */
+.footer_menu_area{
+  height: auto;
+}
+
+.copy_right{
+  color: #FFF;
+  font-size: 20px;
+}
+
+.hiding_mickey{
+  height: auto;
+  width: auto;
+  opacity:0%;
+}
+
+.hiding_mickey:hover{
+  opacity: 100%;
+}
+
+/* お問い合わせページのスタイル */
+.questioner_name{
+  border: 2px #00A99D solid;
+  border-radius: 5px;
+}
+.questioner_email{
+  border: 2px #00A99D solid;
+  border-radius: 5px;
+}
+
+.message_title{
+  border: 2px #00A99D solid;
+  border-radius: 5px;
+}
+
+.message_content{
+  border: 2px #00A99D solid;
+  border-radius: 5px;
+}
+
