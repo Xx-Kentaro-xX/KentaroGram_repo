@@ -5,7 +5,7 @@
         global $page, $paged;
         if (is_front_page()) : //トップページ
           echo 'KentaroGram';
-          bloginfo('name');
+          // bloginfo('name');
         elseif (is_home()) : //ブログページ（ブログサイトの場合はトップページ）
           wp_title('｜', true, 'right');
           bloginfo('name');
