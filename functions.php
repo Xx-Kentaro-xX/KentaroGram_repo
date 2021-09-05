@@ -37,3 +37,17 @@
 
       return $img;
   }
+
+  function set_description(){
+    if(is_front_page()){
+      echo bloginfo('description'); 
+    }
+    elseif(is_single()){
+      $description = get_the_excerpt();
+      echo $description; 
+
+    }
+    else{
+
+    }
+  }
