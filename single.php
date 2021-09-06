@@ -107,8 +107,8 @@
             <!-- 本文 -->
             <?php the_content(); ?>
 			  
-			  <!-- コメント欄 -->
-           <?php comments_template(); ?>
+			    <!-- コメント欄 -->
+           <?php //comments_template(); ?>
 			  
           </div>
 
